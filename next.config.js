@@ -1,3 +1,9 @@
+module.exports = {
+  images: {
+    loader: 'static',
+  },
+}
+
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
